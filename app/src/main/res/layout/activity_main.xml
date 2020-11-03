@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="가족 여행 장소로 최고였던 곳은?"
+        />
+    <!--텍스트 입력받기-->
+    <EditText
+        android:id="@+id/et_test1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="답변을 입력하세요"/>
+    <EditText
+        android:id="@+id/et_test2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="답변을 입력하세요"/>
+    <EditText
+        android:id="@+id/et_test3"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="답변을 입력하세요"/>
+    <EditText
+        android:id="@+id/et_test4"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="답변을 입력하세요"/>
+    <!--버튼을 눌러서 이동함 intent에 의해서 activity 이동은 되지만,
+    putextra에 의해서 적엇던 데이터를 담아서 넘어감-->
+    <Button
+        android:id="@+id/btn_test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="이동"/>
+
+
+</LinearLayout>
